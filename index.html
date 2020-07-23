@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8">
@@ -13,6 +14,7 @@ h1 {
   margin-bottom: 100px;
   text-align: center;
   font-family: sans-serif;
+  color: purple;
   
 }
 
@@ -24,7 +26,13 @@ section {
   margin-right: auto;
   margin-left: auto;
   color: black;
-}   
+}  
+
+p {
+    margin-left: 20px;
+    margin-right: 20px;
+        
+    }
 
 /********** Base styles **********/
 
@@ -122,16 +130,31 @@ section {
     width: 100%;
   }
 }
-
+    #a{
+        background-color: yellow;
+        color: black;
+        text-align: right;
+         }
+    #b{
+        background-color: red;
+        color: bisque;
+        text-align: right;
+    
+    }
+    #c{background-color: purple;
+        color: yellow;
+        text-align: right;
+        border: 1px;
+    }
 </style>
     </head>
 <body>
 <h1>our menu</h1>
 <div class="row">
   
-  <div class="col-lg-4 col-md-6"><section >this is the first section, it contain all elements of the first section</section></div>
-  <div class="col-lg-4 col-md-6"><section>this is the second section, it contain all elements of the second section</section></div>
-  <div class="col-lg-4 col-md-6"><section>this is the third section, it contain all elements of the third section</section></div>
+    <div class="col-lg-4 col-md-6"><section><div id = "a"> 1st section</div><p>this is the first section, it contain all elements of the first section</p></section></div>
+    <div class="col-lg-4 col-md-6"><section><div id = "b"> 2nd section</div><p>this is the second section, it contain all elements of the second section</p></section></div>
+    <div class="col-lg-4 col-md-12"><section><div id = "c"> 3rd section</div><p>this is the third section, it contain all elements of the third section</p></section></div>
   
 </div>
 
