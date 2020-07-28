@@ -17,7 +17,13 @@ section {
   margin-right: auto;
   margin-left: auto;
   color: black;
-}   
+}  
+
+p {
+    margin-left: 20px;
+    margin-right: 20px;
+        
+    }
 
 /********** Base styles **********/
 
@@ -115,3 +121,19 @@ section {
     width: 100%;
   }
 }
+    #a{
+        background-color: yellow;
+        color: black;
+        text-align: right;
+         }
+    #b{
+        background-color: red;
+        color: bisque;
+        text-align: right;
+    
+    }
+    #c{background-color: purple;
+        color: yellow;
+        text-align: right;
+        border: 1px;
+    }
