@@ -1,6 +1,37 @@
-h1{
-    font-family: serif;
+.container-fluid{
+    background-color: yellowgreen;
+}
+
+#nav-list{
+    margin-top: 10px;
+}
+#nav-list a{
+    color: #951C49;
+    text-align: center;
+}
+#nav-list a:hover{
+    background: #E7E7E7;
+}
+.text-center{
     font-size: 35px;
-    color: aqua;
-    background-color: black;
+    font-family: sans-serif;
+}
+section{
+    background-color: gray;
+    margin-left: 30px;
+    margin-right: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    align-content: center;
+}
+h{
+    
+    font-family: serif;
+    font-size: 20px;
+}
+p{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
